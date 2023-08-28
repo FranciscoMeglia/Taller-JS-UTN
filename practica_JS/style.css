@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;600&display=swap');
+
+:root{
+    --color-blue:#96B6C5;
+    --color-light-blue:#ADC4CE;
+    --color-baige:#EEE0C9;
+    --color-white:linear-gradient(180deg,#F1F0E8 0%,#EEE0C9 100%);
+    --color-night:linear-gradient(180deg,#96B6C5 0%,#416677 30%);
+}
+
+/*---- propiedades generales----*/
+*{
+    font-family: 'Phudu', cursive;
+    box-sizing: border-box;
+}
+
+.btn-sitio{
+    background-color: var(--color-light-blue);
+}
+.btn-sitio:hover{
+    background-color: var(--color-blue);
+}
+
+.z-3{
+    z-index: 3;
+}
+
+/*---- tema sitio ----*/
+
+.tema-dia{
+    background: var(--color-white);
+    color: black;
+}
+
+.tema-noche{
+    background: var(--color-night);
+}
+
+/*---- seccion chango de compra  ----*/
+#cant-productos{
+    background-color: var(--color-blue);
+
+}
+.sector-compra{
+    height: 50px;
+    width: 40px;
+}
+
+
+/*---- seccion tarjetas  ----*/
+
+.tarjeta{
+    width: 250px;
+}
+.img-prod{
+    width: 100%;
+    overflow: hidden;
+}
+
+.categoria{
+    background-color: var(--color-light-blue);
+}
+
+
+/*---- seccion lista de compra previa  ----*/
+.compra-previa{
+    width: 400px;
+    background: var(--color-white);
+    display: none;
+}
+
+
